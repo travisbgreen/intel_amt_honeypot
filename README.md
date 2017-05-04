@@ -1,4 +1,4 @@
-# intel amt honeypot
+# Intel AMT honeypot
 ```
 inspired by https://isc.sans.edu/forums/diary/Do+you+have+Intel+AMT+Then+you+have+a+problem+today+Intel+Active+Management+Technology+INTELSA00075/22364/
 
