@@ -6,11 +6,14 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 '''
 inspired by https://isc.sans.edu/forums/diary/Do+you+have+Intel+AMT+Then+you+have+a+problem+today+Intel+Active+Management+Technology+INTELSA00075/22364/
 
+many thanks to @yanaimoyal
+https://twitter.com/yanaimoyal/status/861989573433413633
+
 Inteneded to be run with packet capture in front, e.g. 
 sudo tcpdump -nnvv -i eth0 -w intel_AMT_honeypot.pcap 'portrange 16992-16994 or port 623 or port 624'
 '''
 
-PORT_NUMBERS = [16992, 16993, 16994, 16995, 623, 624]
+PORT_NUMBERS = [16992, 623]
 
 html = '''
 0294
